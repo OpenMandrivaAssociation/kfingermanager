@@ -4,10 +4,11 @@
 Summary:	Fingerprint Manager for KDE4
 Name:	  	kfingermanager
 Version:	0.0
-Release:	%mkrel 0.%svn_snapshot.1
+Release:	%mkrel 0.%svn_snapshot.2
 License:	GPLv2+
 Group:		System/Configuration/Packaging
 Source0: 	%oname-%version.%svn_snapshot.tar.bz2
+Patch0:		kfingermanager-mdv-fix-category.patch
 URL:		http://websvn.kde.org/trunk/playground/base/kfingerprint/KFingerManager/
 BuildRoot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires:	kdelibs4-devel
@@ -26,6 +27,7 @@ Fingerprint Manager for KDE4
 
 %prep
 %setup -q -n %oname
+%patch0 
 
 %build
 %cmake_kde4
