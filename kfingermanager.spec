@@ -4,7 +4,7 @@
 Summary:	Fingerprint Manager for KDE4
 Name:		kfingermanager
 Version:	0.0
-Release:	0.%{svn_snapshot}.6
+Release:	0.%{svn_snapshot}.7
 License:	GPLv2+
 Group:		System/Configuration/Packaging
 URL:		http://websvn.kde.org/trunk/playground/base/kfingerprint/KFingerManager/
@@ -34,10 +34,10 @@ Fingerprint Manager for KDE4.
 %cmake_kde4
 %make
 pwd
-msgfmt %{SOURCE1} -o %{name}.mo
+msgfmt %{SOURCE1} -o kcmkfingermanager.mo
 # msgfmt %{name}.po -o %{name}.mo
 
 %install
 %makeinstall_std -C build
 mkdir -p %{buildroot}%{_localedir}/ru/LC_MESSAGES/
-install build/%{name}.mo %{buildroot}%{_localedir}/ru/LC_MESSAGES/
+install -m 644 build/kcmkfingermanager.mo %{buildroot}%{_localedir}/ru/LC_MESSAGES/
