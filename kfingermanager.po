@@ -5,538 +5,178 @@
 # Translators:
 #   <i.sence.i@gmail.com>, 2011.
 # Julia Dronova <juliette.tux@gmail.com>, 2012.
+# Victor Ryzhykh <victorr2007@yandex.ru>, 2014.
 msgid ""
 msgstr ""
 "Project-Id-Version: ROSA2011\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-04-27 14:06+0200\n"
-"PO-Revision-Date: 2012-12-05 21:31+0300\n"
-"Last-Translator: Julia Dronova <juliette.tux@gmail.com>\n"
-"Language-Team: Русский <kde-russian@lists.kde.ru>\n"
+"POT-Creation-Date: 2014-10-18 11:02+0400\n"
+"PO-Revision-Date: 2014-10-18 11:42+0400\n"
+"Last-Translator: Victor Ryzhykh <victorr2007@yandex.ru>\n"
+"Language-Team: Russian <kde-russian@lists.kde.ru>\n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ru\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2)\n"
-"X-Generator: Lokalize 1.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<"
+"=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Generator: Lokalize 1.5\n"
 
-#: EnrollAnimLabel.cpp:6 EnrollStatus.cpp:30 EnrollStatus.cpp:31
-#: EnrollStatus.cpp:32
-msgid "data"
-msgstr "данные"
-
-#: EnrollAnimLabel.cpp:6
-msgid "kfingermanager/pics/swipe.gif"
-msgstr "kfingermanager/pics/swipe.gif"
-
-#: EnrollStatus.cpp:30
-msgid "kfingermanager/pics/fingerprint.png"
-msgstr "kfingermanager/pics/fingerprint.png"
-
-#: EnrollStatus.cpp:31
-msgid "kfingermanager/pics/fp-ok.png"
-msgstr "kfingermanager/pics/fp-ok.png"
-
-#: EnrollStatus.cpp:32
-msgid "kfingermanager/pics/fp-error.png"
-msgstr "kfingermanager/pics/fp-error.png"
-
-#: FingerManagerWindow.cpp:29
-msgid "kcmkfingermanager"
-msgstr "kcmkfingermanager"
-
-#: FingerManagerWindow.cpp:31
-msgid "v0.0.4"
-msgstr "v0.0.4"
-
-#: FingerManagerWindow.cpp:39
-#, c-format
-msgid "%s: %d"
-msgstr "%s: %d"
-
-#: FingerManagerWindow.cpp:41
-msgid "Deletion of single fingerprint is not supported in fprintd D-Bus daemon"
-msgstr "Удаление одного отпечатка пальца не поддерживается демоном fprintd D-Bus "
-
-#: FingerManagerWindow.cpp:76
-#, c-format
-msgid "Enrolled fingers were discovered (%d)"
-msgstr "Введенные отпечатки пальцев были обнаружены (%d)"
-
-#: FingerManagerWindow.cpp:94
-#, c-format
-msgid "deviceChanged: %d"
-msgstr "deviceChanged: %d"
-
-#: FingerManagerWindow.cpp:96
-msgid "  device: "
-msgstr "  устройство: "
-
-#: FingerManagerWindow.cpp:116
-msgid "Do you really want delete all fingerprints on device \"%1\" for user \"%2\""
-msgstr "Удалить все отпечатки пальцев на устройстве \"%1\" для пользователя \"%2\"?"
-
-#: FingerManagerWindow.cpp:122
-msgid "Deleting all enrolled fingerprints..."
-msgstr "Удаление введенных отпечатков пальцев..."
-
-#: FingerManagerWindow.cpp:148
-msgid "image"
-msgstr "изображение"
-
-#: FingerManagerWindow.cpp:149
-msgid "base"
-msgstr "база"
-
-#: FingerManagerWindow.cpp:151
-msgid "filename"
-msgstr "имя файла"
-
-#: FingerManagerWindow.cpp:151
-msgid "hands.png"
-msgstr "hands.png"
-
-#: FingerManagerWindow.cpp:156
-msgid "File not found: "
-msgstr "Файл не найден: "
-
-#: FingerManagerWindow.cpp:166
-msgid "fingers"
-msgstr "пальцы"
-
-#: FingerManagerWindow.cpp:170
-#, c-format
-msgid "%d/x"
-msgstr "%d/x"
-
-#: FingerManagerWindow.cpp:173
-#, c-format
-msgid "%d/y"
-msgstr "%d/y"
-
-#: FingerManagerWindow.cpp:177
-#, c-format
-msgid "Adding new checkbox[%d]"
-msgstr "Добавление нового флажка[%d]"
-
-#: FingerManagerWindow.cpp:180
-#, c-format
-msgid "Checkbox[%d] skipped"
-msgstr "Флажок[%d] пропущен"
-
-#: FingerManagerWindow.cpp:192
-msgid "Finger manager..."
-msgstr "Finger manager..."
-
-#: FingerManagerWindow.cpp:195
-msgid "Finger Manager Application"
-msgstr "Приложение Finger Manager"
-
-#: FingerManagerWindow.cpp:197
-msgid "Select device:"
-msgstr "Выбрать устройство:"
-
-#: FingerManagerWindow.cpp:198
-msgid "Delete all"
-msgstr "Удалить все"
-
-#: FingerManagerWindow.cpp:199
-msgid "Delete all enrolled fingerprints on selected device."
-msgstr "Удалить введенные отпечатки пальцев для выбранного устройства."
-
-#: FingerManagerWindow.cpp:201
-msgid "Select finger for enroll or modify"
-msgstr "Выбрать пальцы для ввода или редактирования"
-
-#: FingerManagerWindow.cpp:221
-msgid "kfingermanager"
-msgstr "kfingermanager"
-
-#: FingerManagerWindow.cpp:221
-msgid "KFingerManager"
-msgstr "KFingerManager"
-
-#: FingerManagerWindow.cpp:222
-msgid "Manage Enrolled Fingers"
-msgstr "Управлять зарегистрированными пальцами"
-
-#: FingerManagerWindow.cpp:223
-msgid "Manage Enrolled Fingers of User"
-msgstr "Управлять введенными пальцами пользователя"
-
-#: FingerManagerWindow.cpp:224
-msgid "(c) 2009 Jaroslav Barton"
-msgstr "(c) Jaroslav Barton,  2009 "
-
-#: FingerManagerWindow.cpp:225
-msgid "Jaroslav Barton"
-msgstr "Ярослав Бартон (Jaroslav Barton)"
-
-#: FingerManagerWindow.cpp:225
-msgid "Maintainer"
-msgstr "Разработчик"
-
-#: FingerManagerWindow.cpp:225
-msgid "djaara@djaara.net"
-msgstr "djaara@djaara.net"
-
-#: FingerManagerWindow.cpp:275
-msgid "kfingerrc"
-msgstr "kfingerrc"
-
-#: FMDbusConn.cpp:19 FMDbusConn.cpp:29
-#, c-format
-msgid "Number of references: %d"
-msgstr "Количество ссылок: %d"
-
-#: FMDbusConn.cpp:32
-msgid "Deleting instance"
-msgstr "Удаление примера"
-
-#: FMDbusConn.cpp:42
-msgid "Cannot connect to D-Bus system bus."
-msgstr "Не удается подключиться к системной шине D-Bus."
-
-#: FMDbusConn.cpp:58
-msgid "Manager interface doesn't found!"
-msgstr "Интерфейс менеджера не найден"
-
-#: FMDbusConn.cpp:63
-msgid "Returning existing manager interface"
-msgstr "Восстановление существующего интерфейса менеджера"
-
-#: FMDbusConn.cpp:67
-#, c-format
-msgid "getManagerConnection try: %d"
-msgstr "getManagerConnection try: %d"
-
-#: FMDbusConn.cpp:71 FMDbusConn.cpp:89 FMDbusConn.cpp:180 FMDbusConn.cpp:210
-msgid "net.reactivated.Fprint"
-msgstr "net.reactivated.Fprint"
-
-#: FMDbusConn.cpp:72
-msgid "/net/reactivated/Fprint/Manager"
-msgstr "/net/reactivated/Fprint/Manager"
-
-#: FMDbusConn.cpp:73
-msgid "net.reactivated.Fprint.Manager"
-msgstr "net.reactivated.Fprint.Manager"
-
-#: FMDbusConn.cpp:91 FMDbusConn.cpp:187 FMDbusConn.cpp:217
-msgid "net.reactivated.Fprint.Device"
-msgstr "net.reactivated.Fprint.Device"
-
-#: FMDbusConn.cpp:103
-msgid "name"
-msgstr "имя"
-
-#: FMDbusConn.cpp:120
-msgid "D-Bus interface acquired! :-)"
-msgstr "Получен D-Bus интерфейс"
-
-#: FMDbusConn.cpp:121
-msgid "GetDevices"
-msgstr "GetDevices"
-
-#: FMDbusConn.cpp:128
-msgid "GetDefaultDevice"
-msgstr "GetDefaultDevice"
-
-#: FMDbusConn.cpp:133
-msgid "D-Bus interface cannot be acquired! :-("
-msgstr "Не удается получить D-Bus интерфейс"
-
-#: FMDbusConn.cpp:142
-msgid "getFingers:"
-msgstr "getFingers:"
-
-#: FMDbusConn.cpp:146
-msgid "ListEnrolledFingers"
-msgstr "ListEnrolledFingers"
-
-#: FMDbusConn.cpp:155
-msgid "  result:"
-msgstr "  результат:"
-
-#: FMDbusConn.cpp:163
-msgid "DeleteEnrolledFingers"
-msgstr "DeleteEnrolledFingers"
-
-#: FMDbusConn.cpp:175
-msgid "getEnrollStages"
-msgstr "getEnrollStages"
-
-#: FMDbusConn.cpp:177
-msgid "  device claimed..."
-msgstr "  устройство заявлено..."
-
-#: FMDbusConn.cpp:182 FMDbusConn.cpp:212
-msgid "org.freedesktop.DBus.Properties"
-msgstr "org.freedesktop.DBus.Properties"
-
-#: FMDbusConn.cpp:186 FMDbusConn.cpp:216
-msgid "Get"
-msgstr "Получить"
-
-#: FMDbusConn.cpp:188
-msgid "num-enroll-stages"
-msgstr "num-enroll-stages"
-
-#: FMDbusConn.cpp:190
-#, c-format
-msgid "Device enroll stages: %d"
-msgstr "Этапы регистрации устройства: %d"
-
-#: FMDbusConn.cpp:208 FMEnroll.cpp:164
-msgid "swipe"
-msgstr "задержка"
-
-#: FMDbusConn.cpp:218
-msgid "scan-type"
-msgstr "scan-type"
-
-#: FMDbusConn.cpp:220
-msgid "Device scan type:"
-msgstr "Тип сканирования оборудования:"
-
-#: FMDbusConn.cpp:245
-msgid "Claim"
-msgstr "Заявлять"
-
-#: FMDbusConn.cpp:247
-msgid "Claim device:"
-msgstr "Заявление устройства:"
-
-#: FMDbusConn.cpp:256
-msgid "Error:"
-msgstr "Ошибка:"
-
-#: FMDbusConn.cpp:262
-msgid "Device is allready claimed!"
-msgstr "Устройство уже заявлено"
-
-#: FMDbusConn.cpp:271
-msgid "Release"
-msgstr "Релиз"
-
-#: FMDbusConn.cpp:273
-msgid "  Release device:"
-msgstr "  Сбросить устройство:"
-
-#: FMDbusConn.cpp:298
-msgid "EnrollStart"
-msgstr "EnrollStart"
-
-#: FMDbusConn.cpp:300
-msgid "  Enrollment allready started..."
-msgstr "  Регистрация уже запущена..."
-
-#: FMDbusConn.cpp:310
-msgid "EnrollStop"
-msgstr "EnrollStop"
-
-#: FMDbusConn.cpp:312
-msgid "  Enrollment allready stopped..."
-msgstr "  Регистрация уже остановлена..."
-
-#: FMEnroll.cpp:63
-msgid "Error while claiming device."
-msgstr "Ошибка регистрации устройства."
-
-#: FMEnroll.cpp:91
-msgid "Enrolling finger..."
-msgstr "Регистрируются пальцы..."
-
-#: FMEnroll.cpp:94
-msgid "Enroll finger window"
-msgstr "Окно регистрации пальцев"
-
-#: FMEnroll.cpp:97
-msgid "Status"
-msgstr "Состояние"
-
-#: FMEnroll.cpp:97
-msgid ":"
-msgstr ":"
-
-#: FMEnroll.cpp:101
-msgid "Stage %1"
-msgstr "Этап %1"
-
-#: FMEnroll.cpp:103
-msgid "Current enrollment progess..."
-msgstr "Состояние регистрации..."
-
-#: FMEnroll.cpp:113
-msgid "enroll-stage-passed"
-msgstr "enroll-stage-passed"
-
-#: FMEnroll.cpp:115
-msgid "Stage passed"
-msgstr "Этап пройден"
-
-#: FMEnroll.cpp:117
-msgid "enroll-swipe-too-short"
-msgstr "enroll-swipe-too-short"
-
-#: FMEnroll.cpp:118
-msgid "Swipe too short"
-msgstr "Слишком короткая задержка"
-
-#: FMEnroll.cpp:119
-msgid "enroll-finger-not-centered"
-msgstr "enroll-finger-not-centered"
-
-#: FMEnroll.cpp:120
-msgid "Finger not centered"
-msgstr "Пальцы находятся не по центру"
-
-#: FMEnroll.cpp:121
-msgid "enroll-remove-and-retry"
-msgstr "enroll-remove-and-retry"
-
-#: FMEnroll.cpp:122
-msgid "Remove and retry"
-msgstr "Удалить и попробовать снова"
-
-#: FMEnroll.cpp:123
-msgid "enroll-retry-scan"
-msgstr "enroll-retry-scan"
-
-#: FMEnroll.cpp:124
-msgid "Retry scan"
-msgstr "Повторить сканирование"
-
-#: FMEnroll.cpp:138
-msgid "enrollStatus:"
-msgstr "enrollStatus:"
-
-#: FMEnroll.cpp:138
-msgid ", done: "
-msgstr ", выполнено: "
-
-#: FMEnroll.cpp:141
-msgid "enroll-completed"
-msgstr "enroll-completed"
-
-#: FMEnroll.cpp:142
-msgid "Enroll completed"
-msgstr "Регистрация завершена"
-
-#: FMEnroll.cpp:146
-msgid "enroll-disconnected"
-msgstr "enroll-disconnected"
-
-#: FMEnroll.cpp:147
-msgid "Device disconected. Fingerprint is not enrolled."
-msgstr "Отключение устройства. Отпечатки пальцев не зарегистрированы."
-
-#: FMEnroll.cpp:150
-msgid "enroll-failed"
-msgstr "enroll-failed"
-
-#: FMEnroll.cpp:151
-msgid "Enroll failed."
-msgstr "Ошибка регистрации."
-
-#: FMEnroll.cpp:153
-msgid "enroll-unknown-error"
-msgstr "enroll-unknown-error"
-
-#: FMEnroll.cpp:154
-msgid "Unknown error."
-msgstr "Неизвестная ошибка."
-
-#: FMEnroll.cpp:165
-msgid "Swipe your \"%1\" on \"%2\""
-msgstr "Проведите \"%1\" по \"%2\""
-
-#: FMEnroll.cpp:167
-msgid "Place your \"%1\" on \"%2\""
-msgstr "Расположите \"%1\" на \"%2\""
-
-#: FMEnroll.cpp:179
-msgid "FMEnroll destructor"
-msgstr "Деструктор FMEnroll "
-
-#: FingerNames.h:10
 msgid "Left little finger"
 msgstr "Мизинец левой руки"
 
-#: FingerNames.h:10
 msgid "left-little-finger"
 msgstr "left-little-finger"
 
-#: FingerNames.h:11
 msgid "Left ring finger"
 msgstr "Безымянный палец левой руки"
 
-#: FingerNames.h:11
 msgid "left-ring-finger"
 msgstr "left-ring-finger"
 
-#: FingerNames.h:12
 msgid "Left middle finger"
 msgstr "Средний палец левой руки"
 
-#: FingerNames.h:12
 msgid "left-middle-finger"
 msgstr "left-middle-finger"
 
-#: FingerNames.h:13
 msgid "Left index finger"
 msgstr "Указательный палец левой руки"
 
-#: FingerNames.h:13
 msgid "left-index-finger"
 msgstr "left-index-finger"
 
-#: FingerNames.h:14
 msgid "Left thumb"
 msgstr "Большой палец левой руки"
 
-#: FingerNames.h:14
 msgid "left-thumb"
 msgstr "left-thumb"
 
-#: FingerNames.h:15
 msgid "Right thumb"
 msgstr "Большой палец правой руки"
 
-#: FingerNames.h:15
 msgid "right-thumb"
 msgstr "right-thumb"
 
-#: FingerNames.h:16
 msgid "Right index finger"
 msgstr "Указательный палец правой руки"
 
-#: FingerNames.h:16
 msgid "right-index-finger"
 msgstr "right-index-finger"
 
-#: FingerNames.h:17
 msgid "Right middle finger"
 msgstr "Средний палец правой руки"
 
-#: FingerNames.h:17
 msgid "right-middle-finger"
 msgstr "right-middle-finger"
 
-#: FingerNames.h:18
 msgid "Right ring finger"
 msgstr "Безымянный палец правой руки"
 
-#: FingerNames.h:18
 msgid "right-ring-finger"
 msgstr "right-ring-finger"
 
-#: FingerNames.h:19
 msgid "Right little finger"
 msgstr "Мизинец правой руки"
 
-#: FingerNames.h:19
 msgid "right-little-finger"
 msgstr "right-little-finger"
 
+msgid "swipe"
+msgstr "задержка"
 
+msgid "Manage Enrolled Fingers"
+msgstr "Управлять зарегистрированными пальцами"
+
+msgid "Manage Enrolled Fingers of User"
+msgstr "Управлять введенными пальцами пользователя"
+
+msgid "(c) 2009 Jaroslav Barton"
+msgstr "(c) Jaroslav Barton,  2009 "
+
+msgid "Jaroslav Barton"
+msgstr "Ярослав Бартон (Jaroslav Barton)"
+
+msgid "Maintainer"
+msgstr "Разработчик"
+
+msgid "Deletion of single fingerprint is not supported in fprintd D-Bus daemon"
+msgstr ""
+"Удаление одного отпечатка пальца не поддерживается демоном fprintd D-Bus "
+
+msgid ""
+"Do you really want delete all fingerprints on device \"%1\" for user \"%2\""
+msgstr ""
+"Удалить все отпечатки пальцев на устройстве \"%1\" для пользователя \"%2\"?"
+
+msgid "File not found: %1"
+msgstr "Файл не найден: %1"
+
+msgid "Finger manager..."
+msgstr "Finger manager..."
+
+msgid "Finger Manager Application"
+msgstr "Приложение Finger Manager"
+
+msgid "Select device:"
+msgstr "Выбрать устройство:"
+
+msgid "Delete all"
+msgstr "Удалить все"
+
+msgid "Delete all enrolled fingerprints on selected device."
+msgstr "Удалить введенные отпечатки пальцев для выбранного устройства."
+
+msgid "Select finger to enroll or modify"
+msgstr "Выбрать пальцы для ввода или редактирования"
+
+msgid "Error while claiming device."
+msgstr "Ошибка регистрации устройства."
+
+msgid "Enrolling finger..."
+msgstr "Регистрируются пальцы..."
+
+msgid "Enroll finger window"
+msgstr "Окно регистрации пальцев"
+
+msgid "Status"
+msgstr "Состояние"
+
+msgid "Stage %1"
+msgstr "Этап %1"
+
+msgid "Current enrollment progess..."
+msgstr "Состояние регистрации..."
+
+msgid "Stage passed"
+msgstr "Этап пройден"
+
+msgid "Swipe too short"
+msgstr "Слишком короткая задержка"
+
+msgid "Finger not centered"
+msgstr "Пальцы находятся не по центру"
+
+msgid "Remove and retry"
+msgstr "Удалить и попробовать снова"
+
+msgid "Retry scan"
+msgstr "Повторить сканирование"
+
+msgid "Enroll completed"
+msgstr "Регистрация завершена"
+
+msgid "Device disconected. Fingerprint is not enrolled."
+msgstr "Отключение устройства. Отпечатки пальцев не зарегистрированы."
+
+msgid "Enroll failed."
+msgstr "Ошибка регистрации."
+
+msgid "Unknown error."
+msgstr "Неизвестная ошибка."
+
+msgid "Swipe your \"%1\" on \"%2\""
+msgstr "Проведите \"%1\" по \"%2\""
+
+msgid "Place your \"%1\" on \"%2\""
+msgstr "Расположите \"%1\" на \"%2\""
