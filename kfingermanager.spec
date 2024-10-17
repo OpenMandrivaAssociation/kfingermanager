@@ -7,7 +7,7 @@ Version:	0.0
 Release:	0.%{svn_snapshot}.8
 License:	GPLv2+
 Group:		System/Configuration/Packaging
-URL:		http://websvn.kde.org/trunk/playground/base/kfingerprint/KFingerManager/
+URL:		https://websvn.kde.org/trunk/playground/base/kfingerprint/KFingerManager/
 Source0:	%{oname}-%{version}.%{svn_snapshot}.tar.bz2
 Source1:	%{name}.po
 Patch0:		kfingermanager-mdv-fix-category.patch
