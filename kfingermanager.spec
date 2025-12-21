@@ -12,6 +12,7 @@ Source0:	%{oname}-%{version}.%{svn_snapshot}.tar.bz2
 Source1:	%{name}.po
 Patch0:		kfingermanager-mdv-fix-category.patch
 #Patch1:         KFingerManager-russian.patch
+BuildRequires:	make
 BuildRequires:	kdelibs4-devel
 
 %description
